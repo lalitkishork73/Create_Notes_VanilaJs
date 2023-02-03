@@ -1,0 +1,179 @@
+    html {
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(14, 22, 49);
+}
+
+.left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.left h1 {
+    font-size: 26px;
+    color: white;
+    padding: 1em;
+}
+
+.left a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 1em;
+}
+
+.left a:hover {
+    color: yellow;
+    transition: ease-in 0.2s;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+input {
+    height: 33px;
+    width: auto;
+    border: 1px solid green;
+    text-align: left;
+    font-size: 1.7rem;
+    padding-left: 1rem;
+}
+
+.searchbtn {
+    border: 1px solid green;
+    background: transparent;
+    color: green;
+    padding: 1rem;
+    font-size: 1.4rem;;
+}
+
+.searchbtn:hover {
+    border: 2px solid yellow;
+    background: transparent;
+    color: yellow;
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.center {
+    width: 70vw;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.addNote {
+    padding: 1rem;
+    border: 1px solid rgba(12, 17, 65, 0.205);
+}
+
+
+.notecontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.notecontainer h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.form-control {
+    border: 1px solid rgba(17, 29, 68, 0.212);
+    padding-left: 0.5rem;
+    font-size: 1.8rem;
+    color: black;
+}
+
+.btn {
+    background: rgb(29, 197, 248);
+    border: transparent;
+    padding: 1rem;
+    color: white;
+    font-weight: bold;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    font-size: 1.8em;
+}
+
+.btn:hover {
+    color: rgb(29, 197, 248);
+    border: 1px solid rgb(29, 197, 248);
+    background: transparent;
+    ;
+}
+
+.inbet {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    width: 100%;
+}
+
+.cardBody {
+    border: 1px solid rgba(17, 29, 68, 0.212);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: transparent;
+    border-radius: 0.25rem;
+    justify-content: space-around;
+    margin-left: 1rem;
+    width: 250px;
+}
+
+.noteCard {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.noteCard h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.noteCard p {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    text-align: justify;
+    margin-bottom: 1rem;
+    font-weight: 300;
+
+}
